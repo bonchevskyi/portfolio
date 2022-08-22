@@ -1,0 +1,222 @@
+{
+	"select_language": "Виберіть мову",		
+	
+	"helmet.main": "Портфоліо",
+	"helmet.blog": "Блог",
+	"helmet.projects": "Проекти",
+	
+	"navbar.data": [
+		{
+			"name": "Головна",
+			"link": "home"
+		},
+		{
+			"name": "Про мене",
+			"link": "about"
+		},
+		{
+			"name": "Навички",
+			"link": "skills"
+		},
+		{
+			"name": "Освіта",
+			"link": "education"
+		},
+		{
+			"name": "Проекти",
+			"link": "projects"
+		},
+		{
+			"name": "Послуги",
+			"link": "services"
+		},
+		{
+			"name": "Блог",
+			"link": "blog"
+		},
+		{
+			"name": "Контакти",
+			"link": "contact"
+		}
+	 ],
+	
+	"header.name": "Роман Бончевський",
+    "header.title": "Веб-розробник",    
+    "header.desciption": "Життя може бути звивистим шляхом, але не турбуйтеся про це, радше насолоджуйтесь ним. Наполегливо працюйте та будьте добрими і дивовижні речі стануться.",
+    "header.download": "Завантажити CV",
+    "header.contact": "Контакти",
+	
+    "about.title": "Ким я є?",
+    "about.description1": "Привіт :) Мене звати Роман. Я веб-розробник початківець з України.",
+    "about.description2": "Я закінчив Жешувський технологічний університет зі ступенем інженера з розробки інформаційних систем. Зараз я вивчаю веб-розробку інтерфейсів (frontend) та шукаю свого першого комерційного досвіду.",
+    
+	"skills.title": "Навички",
+	"skills.titleT": "Технічні",
+	"skills.titleP": "Персональні",
+	"skills.personal": [
+        "Аналітичний підхід до вирішення проблем",
+		"Письмове спілкування",
+        "Увага до деталей",		
+		"Бажання розвиватися",
+        "Швидке навчання",
+		
+        "Командна робота",
+		"Самомотивація",		
+		"Стресостійкість",
+		"Емоційний інтелект",        
+		"Ентузіазм і особистий драйв"
+      ],
+	  
+	"education.title": "Освіта",
+	"education.data": [
+	{
+        "id": 1,
+        "institution": "Жешувський технологічний університет",
+        "course": "Інформатика",
+        "startYear": "2018",
+        "endYear": "2022"
+    }
+     ],
+	 
+	"projects.title": "Проекти",
+		"projects.data": [
+	{
+        "id": 1,
+        "projectName": "Memory",
+        "projectDesc": "A card base memory game",
+        "tags": ["HTML" ,"CSS", "Javascript","React", "styled-components"],
+        "code": "https://github.com/bonchevskyi",
+        "demo": "https://historythroughmovies.pythonanywhere.com/",
+        "image": "https://i.postimg.cc/2jd646kj/placeholder.png"
+    },
+	{
+        "id": 2,
+        "projectName": "Portfolio",
+        "projectDesc": "My personal portfolio website",
+        "tags": ["HTML" ,"CSS", "Javascript","React", "Material UI"],
+        "code": "https://github.com/bonchevskyi",
+        "demo": "https://historythroughmovies.pythonanywhere.com/",
+        "image": "https://i.postimg.cc/2jd646kj/placeholder.png"
+    },
+	{
+        "id": 3,
+        "projectName": "Memory",
+        "projectDesc": "A card base memory game",
+        "tags": ["HTML" ,"CSS", "Javascript","React", "styled-components"],
+        "code": "https://github.com/bonchevskyi",
+        "demo": "https://historythroughmovies.pythonanywhere.com/",
+        "image": "https://i.postimg.cc/2jd646kj/placeholder.png"
+    },
+	{
+        "id": 4,
+        "projectName": "Weather",
+        "projectDesc": "A card base memory game",
+        "tags": ["HTML" ,"CSS", "Javascript","React", "styled-components"],
+        "code": "https://github.com/bonchevskyi",
+        "demo": "https://historythroughmovies.pythonanywhere.com/",
+        "image": "https://i.postimg.cc/2jd646kj/placeholder.png"
+    },
+	{
+        "id": 5,
+        "projectName": "Memory",
+        "projectDesc": "A card base memory game",
+        "tags": ["HTML" ,"CSS", "Javascript","React", "styled-components"],
+        "code": "https://github.com/bonchevskyi",
+        "demo": "https://historythroughmovies.pythonanywhere.com/",
+        "image": "https://i.postimg.cc/2jd646kj/placeholder.png"
+    }
+     ],
+	"projects.viewAll": "Більше",
+	
+	"achievement.bio": "",
+    "achievement.desc2": "",
+    "achievement.des2ription2": "",
+		
+	"services.title": "Послуги",
+	"services.body": "Ось деякі з послуг, які я пропоную. Звертайтеся до мене, якщо я можу вам чимось допомогти!",
+	"services.data": [
+	    "Content Writing",
+	    "Email Marketing",
+	    "Web Design",
+	    "Photography",
+	    "Video Editing",
+	    "Ebook Writing",
+	    "Blog Posting"
+     ],
+	 
+	"testimonials.title": "Testimonials",
+	"testimonials.data": [
+	{
+        "id": 1,
+        "name": "Elon Musk",
+        "title": "Engineer",
+        "text": "I'd rather be optimistic and wrong than pessimistic and right.",
+        "image": "https://i.postimg.cc/vZ6v1Gdg/elonnn.png"
+    },
+	{
+        "id": 2,
+        "name": "",
+        "title": "",
+        "text": "",
+        "image": ""
+    },
+	{
+        "id": 3,
+        "name": "",
+        "title": "",
+        "text": "",
+        "image": ""
+    }
+     ],
+	
+    "blog.title": "Блог",
+     "blog.data": [
+	{
+        "id": 1,
+        "title": "Title",
+        "description": "Description",
+        "date": "Dec 01, 2022",
+        "image": "https://i.postimg.cc/2jd646kj/placeholder.png",
+        "url": "https://github.com/bonchevskyi"
+    },
+		{
+        "id": 2,
+        "title": "Title",
+        "description": "Description",
+        "date": "Dec 01, 2022",
+        "image": "https://i.postimg.cc/2jd646kj/placeholder.png",
+        "url": "https://github.com/bonchevskyi"
+    },
+		{
+        "id": 3,
+        "title": "Title",
+        "description": "Description",
+        "date": "Dec 01, 2022",
+        "image": "https://i.postimg.cc/2jd646kj/placeholder.png",
+        "url": "https://github.com/bonchevskyi"
+    },
+		{
+        "id": 4,
+        "title": "Title",
+        "description": "Description",
+        "date": "Dec 01, 2022",
+        "image": "https://i.postimg.cc/2jd646kj/placeholder.png",
+        "url": "https://github.com/bonchevskyi"
+    }
+     ],
+	 
+	  "contacts.title": "Контакти",
+	  "contacts.name": "Ім’я",
+	  "contacts.namePlaceholder": "Іван Іваненко",
+	  "contacts.emailLabel": "Пошта",
+	  "contacts.messageLabel": "Повідомлення",	  
+	  "contacts.messagePlaceholder": "Вміст тут...",
+	  "contacts.address": "Жешув, Польща",
+	  "contacts.send": "Надіслати",
+	  "contacts.sent": "Надіслано",		
+	
+	
+	
+    "end": "end"
+  }
+  

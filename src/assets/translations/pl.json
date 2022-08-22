@@ -1,0 +1,222 @@
+{
+	"select_language": "Wybierz język",		
+	
+	"helmet.main": "Portfolio",
+	"helmet.blog": "Blog",
+	"helmet.projects": "Projekty",
+	
+	"navbar.data": [
+		{
+			"name": "Główna",
+			"link": "home"
+		},
+		{
+			"name": "O mnie",
+			"link": "about"
+		},
+		{
+			"name": "Umiejętności",
+			"link": "skills"
+		},
+		{
+			"name": "Edukacja",
+			"link": "education"
+		},
+		{
+			"name": "Projekty",
+			"link": "projects"
+		},
+		{
+			"name": "Usługi",
+			"link": "services"
+		},
+		{
+			"name": "Blog",
+			"link": "blog"
+		},
+		{
+			"name": "Kontakt",
+			"link": "contact"
+		}
+	 ],
+	
+	"header.name": "Roman Bonchevskyi",
+    "header.title": "Web Developer",    
+    "header.desciption": "Życie może być wijąca się ścieżką, ale nie martw się o to, raczej ciesz się nią. Pracuj ciężko oraz bądź miły i wydarzą się niesamowite rzeczy.",
+    "header.download": "Pobierz CV",
+    "header.contact": "Kontakt",
+	
+    "about.title": "Kim jestem?",
+    "about.description1": "Cześć :) Mam na imię Roman. Jestem początkującym web developerem z Ukrainy.",
+    "about.description2": "Jestem absolwentem Politechniki Rzeszowskiej na kierunku Inżynieria Systemów Informatycznych. Obecnie uczę się Frontend Web Development i szukam swoich pierwszych komercyjnych doświadczeń.",
+    
+	"skills.title": "Umiejętności",
+	"skills.titleT": "Techniczne",
+	"skills.titleP": "Personalne",
+	"skills.personal": [
+        "Analityczne podejście do rozwiązywania problemów",
+		"Komunikacja pisemna",
+        "Dbałość o szczegóły",		
+		"Chęć postępu",
+        "Szybkie uczenie się",
+		
+        "Praca zespołowa",		
+		"Automotywacja",
+		"Odporność na stres", 		
+		"Inteligencja emocjonalna",		       
+		"Entuzjazm i osobisty popęd"
+      ],
+	  
+	"education.title": "Edukacja",
+	"education.data": [
+	{
+        "id": 1,
+        "institution": "Politechnika Rzeszowska",
+        "course": "Informatyka",
+        "startYear": "2018",
+        "endYear": "2022"
+    }
+     ],
+	 
+	"projects.title": "Projekty",
+		"projects.data": [
+	{
+        "id": 1,
+        "projectName": "Memory",
+        "projectDesc": "A card base memory game",
+        "tags": ["HTML" ,"CSS", "Javascript","React", "styled-components"],
+        "code": "https://github.com/bonchevskyi",
+        "demo": "https://historythroughmovies.pythonanywhere.com/",
+        "image": "https://i.postimg.cc/2jd646kj/placeholder.png"
+    },
+	{
+        "id": 2,
+        "projectName": "Portfolio",
+        "projectDesc": "My personal portfolio website",
+        "tags": ["HTML" ,"CSS", "Javascript","React", "Material UI"],
+        "code": "https://github.com/bonchevskyi",
+        "demo": "https://historythroughmovies.pythonanywhere.com/",
+        "image": "https://i.postimg.cc/2jd646kj/placeholder.png"
+    },
+	{
+        "id": 3,
+        "projectName": "Memory",
+        "projectDesc": "A card base memory game",
+        "tags": ["HTML" ,"CSS", "Javascript","React", "styled-components"],
+        "code": "https://github.com/bonchevskyi",
+        "demo": "https://historythroughmovies.pythonanywhere.com/",
+        "image": "https://i.postimg.cc/2jd646kj/placeholder.png"
+    },
+	{
+        "id": 4,
+        "projectName": "Weather",
+        "projectDesc": "A card base memory game",
+        "tags": ["HTML" ,"CSS", "Javascript","React", "styled-components"],
+        "code": "https://github.com/bonchevskyi",
+        "demo": "https://historythroughmovies.pythonanywhere.com/",
+        "image": "https://i.postimg.cc/2jd646kj/placeholder.png"
+    },
+	{
+        "id": 5,
+        "projectName": "Memory",
+        "projectDesc": "A card base memory game",
+        "tags": ["HTML" ,"CSS", "Javascript","React", "styled-components"],
+        "code": "https://github.com/bonchevskyi",
+        "demo": "https://historythroughmovies.pythonanywhere.com/",
+        "image": "https://i.postimg.cc/2jd646kj/placeholder.png"
+    }
+     ],
+	"projects.viewAll": "Więcej",
+	
+	"achievement.bio": "",
+    "achievement.desc2": "",
+    "achievement.des2ription2": "",
+		
+	"services.title": "Usługi",
+	"services.body": "Oto niektóre z oferowanych przeze mnie usług. Skontaktuj się ze mną, jeśli mogę Ci pomóc!",
+	"services.data": [
+	    "Content Writing",
+	    "Email Marketing",
+	    "Web Design",
+	    "Photography",
+	    "Video Editing",
+	    "Ebook Writing",
+	    "Blog Posting"
+     ],
+	 
+	"testimonials.title": "Referencje",
+	"testimonials.data": [
+	{
+        "id": 1,
+        "name": "Elon Musk",
+        "title": "Engineer",
+        "text": "I'd rather be optimistic and wrong than pessimistic and right.",
+        "image": "https://i.postimg.cc/vZ6v1Gdg/elonnn.png"
+    },
+	{
+        "id": 2,
+        "name": "",
+        "title": "",
+        "text": "",
+        "image": ""
+    },
+	{
+        "id": 3,
+        "name": "",
+        "title": "",
+        "text": "",
+        "image": ""
+    }
+     ],
+	
+    "blog.title": "Blog",
+         "blog.data": [
+	{
+        "id": 1,
+        "title": "Title",
+        "description": "Description",
+        "date": "Dec 01, 2022",
+        "image": "https://i.postimg.cc/2jd646kj/placeholder.png",
+        "url": "https://github.com/bonchevskyi"
+    },
+		{
+        "id": 2,
+        "title": "Title",
+        "description": "Description",
+        "date": "Dec 01, 2022",
+        "image": "https://i.postimg.cc/2jd646kj/placeholder.png",
+        "url": "https://github.com/bonchevskyi"
+    },
+		{
+        "id": 3,
+        "title": "Title",
+        "description": "Description",
+        "date": "Dec 01, 2022",
+        "image": "https://i.postimg.cc/2jd646kj/placeholder.png",
+        "url": "https://github.com/bonchevskyi"
+    },
+		{
+        "id": 4,
+        "title": "Title",
+        "description": "Description",
+        "date": "Dec 01, 2022",
+        "image": "https://i.postimg.cc/2jd646kj/placeholder.png",
+        "url": "https://github.com/bonchevskyi"
+    }
+     ],
+	 
+	  "contacts.title": "Kontakt",
+	  "contacts.name": "Imię",
+	  "contacts.namePlaceholder": "Jan Nowak",
+	  "contacts.emailLabel": "Email",
+	  "contacts.messageLabel": "Wiadomość",
+	  "contacts.messagePlaceholder": "Treść tutaj...",
+	  "contacts.address": "Rzeszów, Polska",
+	  "contacts.send": "Wysłać",
+	  "contacts.sent": "Wysłano",		
+	
+	
+	
+      "end": "end"
+  }
+  
