@@ -4,7 +4,6 @@ import { device } from "src/devices";
 export const SkillsMain = styled.div`
   display: flex;
   flex-direction: column;
-  //min-height: 60vh;
   min-height: 100vh;
   padding: 2.5rem 2rem 2rem 2rem;
 
@@ -215,7 +214,6 @@ export const SkillsPersonal = styled.div`
 
   margin: 1.5rem;
   padding: 2rem 1rem;
-  //align-items: flex-start;
 
   @media screen and (max-width: 800px) {
     grid-template-columns: repeat(1, 1fr);
@@ -228,8 +226,7 @@ export const SkillsPersonal = styled.div`
   }
 
   h3 {
-    min-width: 450px; //MOD
-    //min-height: 70px;
+    min-width: 450px; //test
     padding: 10px;
     border-radius: 10px;
     font-family: Big Shoulders Text;

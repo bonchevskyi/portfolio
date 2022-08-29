@@ -135,13 +135,11 @@
 	"services.title": "Usługi",
 	"services.body": "Oto niektóre z oferowanych przeze mnie usług. Skontaktuj się ze mną, jeśli mogę Ci pomóc!",
 	"services.data": [
-	    "Content Writing",
-	    "Email Marketing",
-	    "Web Design",
-	    "Photography",
-	    "Video Editing",
-	    "Ebook Writing",
-	    "Blog Posting"
+		"UA|RU|PL|EN Tłumaczenie",
+	    "Korepetycje Języka Obcego",
+	    "Projektowanie Stron",
+		"Transkrypcja Audio",
+	    "Wyjaśnienie Podstaw Programowania"	    
      ],
 	 
 	"testimonials.title": "Referencje",

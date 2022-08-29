@@ -1,7 +1,6 @@
 import React, { useContext } from "react";
 
 import { ThemeContext } from "../../contexts/ThemeContext";
-import { aboutData } from "../../data/aboutData";
 import {
   AboutMain,
   Body,
@@ -35,10 +34,7 @@ function About() {
           </p>
         </Description>
         <Image>
-          <img
-            src={aboutData.image === 2 ? theme.aboutimg1 : theme.aboutimg2}
-            alt=""
-          />
+          <img src={theme.aboutimg1} alt="" />
         </Image>
       </Body>
     </AboutMain>

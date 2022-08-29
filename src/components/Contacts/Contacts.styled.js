@@ -220,7 +220,6 @@ export const PersonalDetails = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  //width: 100%;
   margin-bottom: 2.5rem;
   cursor: pointer;
 

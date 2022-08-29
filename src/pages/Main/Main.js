@@ -16,7 +16,6 @@ import {
   Services,
   Achievement,
 } from "../../components";
-//import { headerData } from "../../data/headerData";
 
 import { useTranslation } from "react-i18next";
 

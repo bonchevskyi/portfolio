@@ -1,22 +1,15 @@
-import React, { useState, useEffect, useContext } from "react";
-import { useTranslation } from "react-i18next";
+import React, { useState, useContext } from "react";
 import i18next from "i18next";
 
 import {
   SelectButton,
   SelectList,
-  SelectPopover,
   SelectListItem,
 } from "./LanguageSelect.styled";
 
-import { MdKeyboardArrowDown } from "react-icons/md";
-//import Button from "@mui/material/Button";
-//import Popover from "@mui/material/Popover";
 import { Popover } from "@material-ui/core";
 
 import { ThemeContext } from "../../contexts/ThemeContext";
-
-import { makeStyles } from "@material-ui/core/styles";
 
 const languageMap = {
   en: { label: "English", short: "EN", flag: "gb", active: true },
@@ -25,20 +18,9 @@ const languageMap = {
 };
 
 const LanguageSelect = () => {
-  //const selected =  localStorage.getItem("i18nextLng") ||  "en" || i18next.language;
   const selected = i18next.resolvedLanguage;
-  const { t } = useTranslation();
   const { theme } = useContext(ThemeContext);
-
   const [menuAnchor, setMenuAnchor] = useState(null);
-
-  const useStyles = makeStyles((t) => ({
-    list: {
-      backgroundColor: "red",
-    },
-  }));
-
-  const classes = useStyles();
 
   return (
     <>
@@ -48,9 +30,6 @@ const LanguageSelect = () => {
           background: theme.secondary,
           color: theme.tertiary,
           border: `3px solid ${theme.primary}`,
-          "&:hover": {
-            //color: theme.tertiary,
-          },
         }}
       >
         {/* {languageMap[selected].label} */}

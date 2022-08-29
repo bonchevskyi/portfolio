@@ -7,7 +7,6 @@ import { AiOutlineHome } from "react-icons/ai";
 import { SingleBlog } from "../../components";
 import { ThemeContext } from "../../contexts/ThemeContext";
 import { useTranslation } from "react-i18next";
-import { blogData } from "../../data/blogData";
 import {
   BlogPageMain,
   BlogsContainer,
@@ -21,6 +20,10 @@ function BlogPage() {
   const [search, setSearch] = useState("");
   const { t } = useTranslation();
   const { theme } = useContext(ThemeContext);
+
+  const blogData = t("blog.data", {
+    returnObjects: true,
+  });
 
   const filteredArticles = blogData.filter((blog) => {
     const content = blog.title + blog.description + blog.date;

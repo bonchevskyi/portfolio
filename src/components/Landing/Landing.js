@@ -6,13 +6,7 @@ import { ThemeContext } from "../../contexts/ThemeContext";
 import { useTranslation } from "react-i18next";
 import { headerData } from "../../data/headerData";
 import { socialsData } from "../../data/socialsData";
-import {
-  FaTwitter,
-  FaLinkedin,
-  FaGithub,
-  FaYoutube,
-  FaBlogger,
-} from "react-icons/fa";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 import {
   Container,
@@ -83,16 +77,6 @@ function Landing() {
       <Container>
         <ContainerLeft style={{ backgroundColor: theme.primary }}>
           <ContentLeft>
-            {socialsData.linkedIn && (
-              <a href={socialsData.linkedIn} target="_blank" rel="noreferrer">
-                <Social>
-                  <FaLinkedin
-                    style={{ color: theme.secondary }}
-                    aria-label="LinkedIn"
-                  />
-                </Social>
-              </a>
-            )}
             {socialsData.github && (
               <a href={socialsData.github} target="_blank" rel="noreferrer">
                 <Social>
@@ -103,45 +87,16 @@ function Landing() {
                 </Social>
               </a>
             )}
-            {/* {socialsData.twitter && (
-                            <a
-                                href={socialsData.twitter}
-                                target='_blank'
-                                rel='noreferrer'
-                            >
-                                <FaTwitter
-                                    className='landing--social'
-                                    style={{ color: theme.secondary }}
-                                    aria-label='Twitter'
-                                />
-                            </a>
-                        )}
-                        {socialsData.youtube && (
-                            <a
-                                href={socialsData.youtube}
-                                target='_blank'
-                                rel='noreferrer'
-                            >
-                                <FaYoutube
-                                    className='landing--social'
-                                    style={{ color: theme.secondary }}
-                                    aria-label='YouTube'
-                                />
-                            </a>
-                        )}
-                        {socialsData.blogger && (
-                            <a
-                                href={socialsData.blogger}
-                                target='_blank'
-                                rel='noreferrer'
-                            >
-                                <FaBlogger
-                                    className='landing--social'
-                                    style={{ color: theme.secondary }}
-                                    aria-label='Blogger'
-                                />
-                            </a>
-                        )} */}
+            {socialsData.linkedIn && (
+              <a href={socialsData.linkedIn} target="_blank" rel="noreferrer">
+                <Social>
+                  <FaLinkedin
+                    style={{ color: theme.secondary }}
+                    aria-label="LinkedIn"
+                  />
+                </Social>
+              </a>
+            )}
           </ContentLeft>
         </ContainerLeft>
         <Image

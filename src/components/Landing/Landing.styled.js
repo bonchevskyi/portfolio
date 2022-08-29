@@ -17,9 +17,8 @@ export const Container = styled.div`
   align-items: center;
   justify-content: center;
   height: 100%;
-  width: 100%; //MOD
+  width: 100%; //test
   position: relative;
-  //border: 3px solid red;
 
   @media (max-width: 600px) {
     flex-direction: column;

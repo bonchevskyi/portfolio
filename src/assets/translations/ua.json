@@ -135,13 +135,11 @@
 	"services.title": "Послуги",
 	"services.body": "Ось деякі з послуг, які я пропоную. Звертайтеся до мене, якщо я можу вам чимось допомогти!",
 	"services.data": [
-	    "Content Writing",
-	    "Email Marketing",
-	    "Web Design",
-	    "Photography",
-	    "Video Editing",
-	    "Ebook Writing",
-	    "Blog Posting"
+		"UA|RU|PL|EN Переклад",
+	    "Репетиторство з Іноземної Мови",
+	    "Веб-Дизайн",
+		"Транскрипція Аудіо",
+	    "Пояснення Основ Програмування"	    
      ],
 	 
 	"testimonials.title": "Testimonials",

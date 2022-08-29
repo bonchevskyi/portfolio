@@ -3,13 +3,10 @@ import { device } from "src/devices";
 import Button from "@mui/material/Button";
 import IconButton from "@mui/material/IconButton";
 import AppBar from "@mui/material/AppBar";
-import List from "@mui/material/List";
 import ListItem from "@mui/material/ListItem";
-import ListItemText from "@mui/material/ListItemText";
 import Typography from "@mui/material/Typography";
 
 export const NavbarMain = styled.div`
-  //height: 6.5rem;
   position: absolute;
   background-color: transparent;
   z-index: 99;
@@ -17,10 +14,6 @@ export const NavbarMain = styled.div`
   align-items: center;
   justify-content: center;
   width: 100%;
-
-  /* @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {
-    height: 5rem;
-  } */
 `;
 
 export const Container = styled.div`
@@ -31,7 +24,6 @@ export const Container = styled.div`
   padding: 0 3rem;
   margin: 0;
   /* position: fixed; */
-  /* top: 10px; */
 
   @media (max-width: 1100px) {
     padding: 0;
@@ -43,8 +35,6 @@ export const Container = styled.div`
   }
 
   h1 {
-    //font-weight: 600;
-    //font-family: "Apple Chancery", serif;
     font-family: "Kaushan Script";
     font-weight: bold;
     margin-top: 50px;
@@ -55,17 +45,11 @@ export const Container = styled.div`
     //text-underline-position: under;
     border-bottom-width: 5px;
     border-bottom-style: solid;
-
-    //font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    //color: var(--primary-2);
     font-size: 2.5rem;
     user-select: none;
     text-align: center;
     align-items: center;
-
-    //height: 90px;
     border-radius: 20%;
-    //width: 90px;
 
     @media (max-width: 1100px) {
       font-size: 2.2rem;
@@ -148,7 +132,6 @@ export const DrawerListItem = styled(ListItem)`
     display: flex;
     justify-content: center;
     align-items: center;
-    //margin: 1.5rem 0;
     margin: 0 0 1rem 0;
     padding: 0.2rem;
     font-size: 0.8rem;
@@ -172,7 +155,6 @@ export const DrawerSettingsDiv = styled.div`
   align-items: center;
   justify-content: space-between;
   padding: 0;
-  //cursor: pointer;
   background: transparent;
   margin: 0 0.3rem;
   width: 100%;
@@ -183,40 +165,21 @@ export const NavButton = styled(Button)`
     padding: 5px;
     font-size: 0.8rem;
     cursor: pointer;
-    //margin: 0 1rem;
-    //margin-left: 1.2rem;
     margin: 0.6rem;
     width: 120px;
   }
 `;
 
-// export const ThemeButton = styled(Button)`
-//   && {
-//     border-radius: 33%;
-//     padding: 5px;
-//     //margin-left: auto;
-//     margin-left: 2rem;
-//     //font-size: 0.8rem;
-//     display: flex;
-//     align-items: center;
-//     justify-content: center;
-//     //position: relative;
-//   }
-// `;
-
 export const ThemeButton = styled.button`
-  //position: absolute;
   font-size: 2rem;
   cursor: pointer;
   text-align: right;
   background: transparent;
   top: 0px;
   right: 0px;
-  //z-index: 0;
 `;
 
 export const ThemeIcon = styled.button`
-  //position: absolute;
   display: flex;
   font-size: 1rem;
   cursor: pointer;
@@ -224,28 +187,21 @@ export const ThemeIcon = styled.button`
   background: transparent;
   top: 0px;
   right: 0px;
-  //z-index: 0;
   border: none;
 `;
 
 export const SettingsDiv = styled.div`
   height: 100vh;
   position: absolute;
-  //display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
   padding: 0.8rem 5px;
-  //cursor: pointer;
   background: transparent;
   top: 0;
   right: 0;
-  //margin-left: 2rem;
-  //padding-top: 2rem;
   margin-top: auto;
-  //z-index: 0;
   border: none;
-  //font-size: 2rem;
 
   @media (max-width: 1920px) {
     display: flex;

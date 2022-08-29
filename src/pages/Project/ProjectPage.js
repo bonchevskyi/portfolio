@@ -6,8 +6,6 @@ import { AiOutlineHome } from "react-icons/ai";
 import { SingleProject } from "../../components";
 import { ThemeContext } from "../../contexts/ThemeContext";
 import { useTranslation } from "react-i18next";
-import { projectsData } from "../../data/projectsData";
-import { headerData } from "../../data/headerData";
 import {
   Container,
   Header,
@@ -21,6 +19,10 @@ function ProjectPage() {
   const { t } = useTranslation();
   const [search, setSearch] = useState("");
   const { theme } = useContext(ThemeContext);
+
+  const projectsData = t("projects.data", {
+    returnObjects: true,
+  });
 
   const filteredArticles = projectsData.filter((project) => {
     const content = project.projectName + project.projectDesc + project.tags;

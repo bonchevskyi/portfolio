@@ -3,7 +3,7 @@ import eduGreen from "../assets/svg/education/eduGreen.svg";
 import expGreen from "../assets/svg/experience/expGreen.svg";
 import contactsGreen from "../assets/svg/contacts/contactsGreen.svg";
 
-export const greenThemeDark = {
+export const themeDark = {
   type: "dark",
   primary: "#48854f",
   primary400: "#5a9161",
@@ -25,7 +25,7 @@ export const greenThemeDark = {
   contactsimg: contactsGreen,
 };
 
-export const greenThemeLight = {
+export const themeLight = {
   type: "light",
   primary: "#48854f",
   primary400: "#5a9161",

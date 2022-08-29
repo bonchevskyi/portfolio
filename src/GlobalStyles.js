@@ -1,4 +1,3 @@
-import styled from "styled-components";
 import { createGlobalStyle } from "styled-components";
 import "/node_modules/flag-icons/css/flag-icons.min.css";
 import KaushanScript from "./assets/fonts/Kaushan-Script.woff";
@@ -16,16 +15,13 @@ const GlobalStyles = createGlobalStyle`
 
 :root {
     --primaryFont: 'Poppins', sans-serif;
-    /* --primaryFont: 'Montserrat', sans-serif; */
-    /* --primaryFont: 'Raleway', sans-serif; */
 }
 
 *{    
   box-sizing: border-box;
   margin: 0;
-  text-decoration: none; //MOD
+  text-decoration: none; 
   scroll-behavior: smooth;
-  //font-size: 1em;
 }
 
 html,
@@ -42,18 +38,12 @@ body{
 
 &::-webkit-scrollbar-track {
     background: #555;
-  //background-clip: content-box;
-
 }
 
 &::-webkit-scrollbar-thumb {
     background: #555;
   border-radius: 10px;
   transition: 0.3s;
-
-  :hover{
-    //background-color: ;
-  }
 } 
 
 img{

@@ -1,51 +1,33 @@
 import React, { useContext, useState } from "react";
-import { NavHashLink as NavLink } from "react-router-hash-link";
-import Fade from "react-reveal/Fade";
-import { IoMenuSharp, IoHomeSharp } from "react-icons/io5";
-import { HiDocumentText } from "react-icons/hi";
-import { BsFillGearFill } from "react-icons/bs";
-import { MdPhone, MdMenu } from "react-icons/md";
-import { FaUser, FaFolderOpen } from "react-icons/fa";
-
-//import Drawer from "@material-ui/core/Drawer";
-import { MdClose } from "react-icons/md";
-import { MdDarkMode, MdLightMode } from "react-icons/md";
 import Switch from "react-switch";
+import { Link } from "react-scroll";
 
-//NEW NAV
+//nav mui items
 import Drawer from "@mui/material/Drawer";
 import Box from "@mui/material/Box";
-import Divider from "@mui/material/Divider";
 import List from "@mui/material/List";
-import ListItem from "@mui/material/ListItem";
 import ListItemButton from "@mui/material/ListItemButton";
 import ListItemText from "@mui/material/ListItemText";
 import Toolbar from "@mui/material/Toolbar";
-import Typography from "@mui/material/Typography";
 
-//translation
 import { useTranslation } from "react-i18next";
 import LanguageSelect from "../LanguageSelect/LanguageSelect";
 import { ThemeContext } from "../../contexts/ThemeContext";
+import { MdMenu } from "react-icons/md";
+import { MdDarkMode, MdLightMode } from "react-icons/md";
 import {
   Container,
-  DrawerDiv,
-  LinkContainer,
   NavbarMain,
   NavButton,
   NavIcon,
-  NavToolbar,
   NavButtonsDiv,
   AppBarStyled,
-  ThemeButton,
   SettingsDiv,
   ThemeIcon,
   DrawerListItem,
   DrawerSettingsDiv,
   DrawerTypography,
 } from "./Navbar.styled";
-//import { Link } from "react-router-dom";
-import { Link } from "react-scroll";
 
 import { themeData } from "src/data/themeData";
 import { makeStyles } from "@material-ui/core/styles";
@@ -58,11 +40,9 @@ function Navbar() {
     returnObjects: true,
   });
 
-  //const { window } = props;
   const [mobileOpen, setMobileOpen] = useState(false);
 
   const handleDrawerToggle = () => {
-    //console.log("OPENING DRAWER!", mobileOpen);
     setMobileOpen(!mobileOpen);
   };
 
@@ -76,22 +56,19 @@ function Navbar() {
     }
   };
 
-  const container =
-    window !== undefined ? () => window().document.body : undefined;
+  const { theme, setTheme } = useContext(ThemeContext);
 
-  const { theme, setTheme, setHandleDrawer } = useContext(ThemeContext);
+  //const [open, setOpen] = useState(false);
 
-  const [open, setOpen] = useState(false);
+  // const handleDrawerOpen = () => {
+  //   setOpen(true);
+  //   setHandleDrawer();
+  // };
 
-  const handleDrawerOpen = () => {
-    setOpen(true);
-    setHandleDrawer();
-  };
-
-  const handleDrawerClose = () => {
-    setOpen(false);
-    setHandleDrawer();
-  };
+  // const handleDrawerClose = () => {
+  //   setOpen(false);
+  //   setHandleDrawer();
+  // };
 
   const useStyles = makeStyles((t) => ({
     boxApp: {
@@ -168,7 +145,7 @@ function Navbar() {
     },
     drawerItem: {
       margin: "2rem auto",
-      borderRadius: "78.8418px",
+      borderRadius: "75px",
       background: theme.secondary,
       color: theme.primary,
       width: "85%",
@@ -204,23 +181,9 @@ function Navbar() {
 
   const classes = useStyles();
 
-  const shortname = (name) => {
-    if (name.length > 12) {
-      return name.split(" ")[0];
-    } else {
-      return name;
-    }
-  };
-
   const drawer = (
-    <Box
-      //onClick={handleDrawerToggle}
-      sx={{ textAlign: "center" }}
-      position="absolute"
-    >
+    <Box sx={{ textAlign: "center" }} position="absolute">
       <DrawerTypography variant="h6">RB</DrawerTypography>
-
-      {/* <Divider /> */}
       <List>
         {navItems.map((item) => (
           <Link
@@ -231,7 +194,6 @@ function Navbar() {
             duration={1000}
           >
             <DrawerListItem
-              //onClick={handleDrawerToggle}
               key={item.name}
               sx={{
                 background: theme.secondary,
@@ -286,14 +248,8 @@ function Navbar() {
       </Container>
 
       <Box>
-        <AppBarStyled
-          //style={{ background: "transparent" }}
-          component="nav"
-          elevation={0}
-        >
+        <AppBarStyled component="nav" elevation={0}>
           <Toolbar className={classes.toolBar}>
-            {/* <NavToolbar className={classes.boxApp}></NavToolbar> */}
-
             <NavButtonsDiv>
               {navItems.map((item) => (
                 <Link
@@ -382,8 +338,6 @@ function Navbar() {
           </Drawer>
         </Box>
       </Box>
-
-      {/* <DrawerDiv></DrawerDiv> */}
     </NavbarMain>
   );
 }

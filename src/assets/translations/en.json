@@ -135,13 +135,11 @@
 	"services.title": "Services",
 	"services.body": "These are some of the services I offer. Reach out to me if I can help you with any!",
 	"services.data": [
-	    "Content Writing",
-	    "Email Marketing",
+		"UA|RU|PL|EN Translation",
+	    "Foreign Language Tutoring",
 	    "Web Design",
-	    "Photography",
-	    "Video Editing",
-	    "Ebook Writing",
-	    "Blog Posting"
+		"Audio Transcription",
+	    "Programming Basics Explanation"	    
      ],
 	 
 	"testimonials.title": "Testimonials",

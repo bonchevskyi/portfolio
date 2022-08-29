@@ -29,7 +29,6 @@ export const Body = styled.div`
   align-items: flex-start;
   justify-content: space-evenly;
   flex: 0.4;
-  //width: 90%;
 
   @media (min-width: 992px) and (max-width: 1380px) {
     display: flex;
@@ -78,8 +77,6 @@ export const Cards = styled.div`
   flex-direction: column;
   justify-content: center;
   margin-left: 2rem;
-  //width: 100%;
-  //width: auto;
 
   @media (min-width: 992px) and (max-width: 1380px) {
     padding: 1rem;
@@ -107,14 +104,8 @@ export const Card = styled.div`
   padding: 1.5rem;
   border-radius: 20px;
   margin-bottom: 1.5rem;
-  //margin-left: 1.5rem;
   transition: background-color 200ms ease-in-out;
-  //width: 100%;
-  //width: auto;
   flex: auto;
-  //flex: 2 1 auto;
-
-  //position: relative;
 
   @media (min-width: 992px) and (max-width: 1380px) {
     justify-content: flex-start;
@@ -127,9 +118,7 @@ export const CardContent = styled.div`
   align-items: flex-start;
   justify-content: space-between;
   width: 100%;
-  //width: auto;
   margin-right: auto;
-  //flex: 1;
 
   @media screen and (max-width: 992px) {
     width: 70%;
@@ -207,8 +196,6 @@ export const CardField = styled.div`
 
 export const CardImg = styled.div`
   display: flex;
-  //flex: 1;
-  //width: 100%;
   margin-left: auto;
 
   @media (min-width: 992px) and (max-width: 1380px) {
