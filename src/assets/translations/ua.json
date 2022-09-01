@@ -82,47 +82,38 @@
 		"projects.data": [
 	{
         "id": 1,
-        "projectName": "Memory",
-        "projectDesc": "A card base memory game",
-        "tags": ["HTML" ,"CSS", "Javascript","React", "styled-components"],
-        "code": "https://github.com/bonchevskyi",
-        "demo": "https://historythroughmovies.pythonanywhere.com/",
-        "image": "https://i.postimg.cc/2jd646kj/placeholder.png"
+        "projectName": "Portfolio",
+        "projectDesc": "My personal portfolio website contains all the information from my CV and some more data plus all of my projects.",
+        "tags": ["HTML" ,"CSS", "Javascript","React", "Material UI"],
+        "code": "https://github.com/bonchevskyi/portfolio",
+        "demo": "https://bonchevskyi.netlify.app/",
+        "image": "https://i.postimg.cc/XYnSJWKT/preview-bonchevskyi.png"
     },
 	{
         "id": 2,
-        "projectName": "Portfolio",
-        "projectDesc": "My personal portfolio website",
-        "tags": ["HTML" ,"CSS", "Javascript","React", "Material UI"],
-        "code": "https://github.com/bonchevskyi",
-        "demo": "https://historythroughmovies.pythonanywhere.com/",
+        "projectName": "Memory",
+        "projectDesc": "A game designed to train user memory by remembering and matching the same cards in a pool. Customizable card type and number. Theme changer and audio effects included.",
+        "tags": ["HTML" ,"CSS", "Javascript","React", "styled-components"],
+        "code": "https://github.com/bonchevskyi/memory",
+        "demo": "https://memory-rb.netlify.app/",
         "image": "https://i.postimg.cc/2jd646kj/placeholder.png"
     },
 	{
         "id": 3,
-        "projectName": "Memory",
-        "projectDesc": "A card base memory game",
+        "projectName": "Weather",
+        "projectDesc": "Web application to track weather with help of OpenWeather API and custom React hooks.",
         "tags": ["HTML" ,"CSS", "Javascript","React", "styled-components"],
-        "code": "https://github.com/bonchevskyi",
-        "demo": "https://historythroughmovies.pythonanywhere.com/",
+        "code": "https://github.com/bonchevskyi/weather",
+        "demo": "https://weather-rb.netlify.app/",
         "image": "https://i.postimg.cc/2jd646kj/placeholder.png"
     },
 	{
         "id": 4,
-        "projectName": "Weather",
-        "projectDesc": "A card base memory game",
+        "projectName": "Planets",
+        "projectDesc": "A beautiful website that showcases a bunch of facts about the planets of our solar system. Animated with framer-motion, styled with styled-components.",
         "tags": ["HTML" ,"CSS", "Javascript","React", "styled-components"],
-        "code": "https://github.com/bonchevskyi",
-        "demo": "https://historythroughmovies.pythonanywhere.com/",
-        "image": "https://i.postimg.cc/2jd646kj/placeholder.png"
-    },
-	{
-        "id": 5,
-        "projectName": "Memory",
-        "projectDesc": "A card base memory game",
-        "tags": ["HTML" ,"CSS", "Javascript","React", "styled-components"],
-        "code": "https://github.com/bonchevskyi",
-        "demo": "https://historythroughmovies.pythonanywhere.com/",
+        "code": "https://github.com/bonchevskyi/planets",
+        "demo": "https://planets-rb.netlify.app/",
         "image": "https://i.postimg.cc/2jd646kj/placeholder.png"
     }
      ],
