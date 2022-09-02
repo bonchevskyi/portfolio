@@ -16,7 +16,7 @@ You need to create .env and add the follow keys<br/>
 REACT_APP_API_KEY_APPID=your-api<br />
 REACT_APP_API_KEY_UNSPLASH=your-api
 
-# <h2><g-emoji class="g-emoji" alias="fire" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f525.png"><img class="emoji" alt="fire" height="20" width="20" src="https://github.githubassets.com/images/icons/emoji/unicode/1f525.png"></g-emoji> Libraries and Technologies</h2>
+# <h2>🔥 Libraries and Technologies</h2>
 👉 Accesses Open Weather API for weather data<br/>
 👉 Uses React, including React Hooks<br/>
 👉 Uses fetch for data fetching, included in a custom React Hook <br />
@@ -24,7 +24,7 @@ REACT_APP_API_KEY_UNSPLASH=your-api
 👉 Styled with Styled Components<br/>
 👉 Uses React Icons, React Swiper, Node Sass<br/>
 
-# Features
+# ⚙️ Features
 <g-emoji class="g-emoji" alias="heavy_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"><img class="emoji" alt="heavy_check_mark" height="20" width="20" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"></g-emoji> Dark and Light Theme <br />
 <g-emoji class="g-emoji" alias="heavy_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"><img class="emoji" alt="heavy_check_mark" height="20" width="20" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"></g-emoji> City Finder <br />
 <g-emoji class="g-emoji" alias="heavy_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"><img class="emoji" alt="heavy_check_mark" height="20" width="20" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"></g-emoji> Geolocation API <br />
