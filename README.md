@@ -13,12 +13,12 @@ REACT_APP_API_KEY_APPID=your-api<br />
 REACT_APP_API_KEY_UNSPLASH=your-api
 
 # <h2>🔥 Libraries and Technologies</h2>
-👉 Accesses Open Weather API for weather data<br/>
-👉 Uses React, including React Hooks<br/>
-👉 Uses fetch for data fetching, included in a custom React Hook <br />
-👉 Uses Local Storage to save dark theme & current temperature Conversion/celsius or fahrenheit/.<br />
+👉 Open Weather API for weather data<br/>
+👉 Custom React Hooks<br/>
+👉 Fetch for data fetching <br />
+👉 Local Storage to save theme data & current temperature format<br />
 👉 Styled with Styled Components<br/>
-👉 Uses React Icons, React Swiper, Node Sass<br/>
+👉 Icons powered by React Icons, React Swiper handles touch responsiveness<br/>
 
 # <h2>⚙️ Features</h2>
 ✔️ Dark and Light Theme <br />
