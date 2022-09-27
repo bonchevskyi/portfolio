@@ -41,8 +41,6 @@ export const Container = styled.div`
     padding: 5px;
     margin: 0;
     margin-left: 3rem;
-    //text-decoration: underline;
-    //text-underline-position: under;
     border-bottom-width: 5px;
     border-bottom-style: solid;
     font-size: 2.5rem;

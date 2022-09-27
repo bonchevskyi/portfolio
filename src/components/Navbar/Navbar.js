@@ -58,18 +58,6 @@ function Navbar() {
 
   const { theme, setTheme } = useContext(ThemeContext);
 
-  //const [open, setOpen] = useState(false);
-
-  // const handleDrawerOpen = () => {
-  //   setOpen(true);
-  //   setHandleDrawer();
-  // };
-
-  // const handleDrawerClose = () => {
-  //   setOpen(false);
-  //   setHandleDrawer();
-  // };
-
   const useStyles = makeStyles((t) => ({
     boxApp: {
       display: "flex",

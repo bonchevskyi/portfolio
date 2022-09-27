@@ -226,7 +226,7 @@ export const SkillsPersonal = styled.div`
   }
 
   h3 {
-    min-width: 450px; //test
+    min-width: 450px;
     padding: 10px;
     border-radius: 10px;
     font-family: Big Shoulders Text;

@@ -168,7 +168,6 @@ export const CardDetails2 = styled.div`
   bottom: 7px;
   left: 25px;
   margin-top: auto;
-  //position: absolute;
 
   @media screen and (max-width: 992px) {
     width: 85%;

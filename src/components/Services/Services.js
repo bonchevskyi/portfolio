@@ -20,7 +20,6 @@ function Services() {
   }
 
   useEffect(() => {
-    //var lang = getLanguage();
     const servicesDataTitle = i18next.t("services.data", {
       returnObjects: true,
     });
