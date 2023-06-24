@@ -1,211 +1,120 @@
 {
-	"select_language": "Wybierz język",		
-	
-	"helmet.main": "Portfolio",
-	"helmet.blog": "Blog",
-	"helmet.projects": "Projekty",
-	
-	"navbar.data": [
-		{
-			"name": "Główna",
-			"link": "home"
-		},
-		{
-			"name": "O mnie",
-			"link": "about"
-		},
-		{
-			"name": "Umiejętności",
-			"link": "skills"
-		},
-		{
-			"name": "Edukacja",
-			"link": "education"
-		},
-		{
-			"name": "Projekty",
-			"link": "projects"
-		},
-		{
-			"name": "Usługi",
-			"link": "services"
-		},
-		{
-			"name": "Blog",
-			"link": "blog"
-		},
-		{
-			"name": "Kontakt",
-			"link": "contact"
-		}
-	 ],
-	
-	"header.name": "Roman Bonchevskyi",
-    "header.title": "Web Developer",    
+    "select_language": "Wybierz język",
+    "helmet.main": "Portfolio",
+    "helmet.projects": "Projekty",
+    "navbar.data": [
+        {
+            "name": "Główna",
+            "link": "home"
+        },
+        {
+            "name": "O mnie",
+            "link": "about"
+        },
+        {
+            "name": "Umiejętności",
+            "link": "skills"
+        },
+        {
+            "name": "Doświadczenie",
+            "link": "experience"
+        },
+        {
+            "name": "Edukacja",
+            "link": "education"
+        },
+        {
+            "name": "Projekty",
+            "link": "projects"
+        },
+        {
+            "name": "Kontakt",
+            "link": "contact"
+        }
+    ],
+    "header.name": "Roman Bonchevskyi",
+    "header.title": "Web Developer",
     "header.desciption": "Życie może być wijąca się ścieżką, ale nie martw się o to, raczej ciesz się nią. Pracuj ciężko oraz bądź miły i wydarzą się niesamowite rzeczy.",
     "header.download": "Pobierz CV",
     "header.contact": "Kontakt",
-	
     "about.title": "Kim jestem?",
     "about.description1": "Cześć :) Mam na imię Roman. Jestem początkującym web developerem z Ukrainy.",
     "about.description2": "Jestem absolwentem Politechniki Rzeszowskiej na kierunku Inżynieria Systemów Informatycznych. Obecnie uczę się Frontend Web Development i szukam swoich pierwszych komercyjnych doświadczeń.",
-    
-	"skills.title": "Umiejętności",
-	"skills.titleT": "Techniczne",
-	"skills.titleP": "Personalne",
-	"skills.personal": [
-        "Analityczne podejście do rozwiązywania problemów",
-		"Komunikacja pisemna",
-        "Dbałość o szczegóły",		
-		"Chęć postępu",
-        "Szybkie uczenie się",
-		
-        "Praca zespołowa",		
-		"Automotywacja",
-		"Odporność na stres", 		
-		"Inteligencja emocjonalna",		       
-		"Entuzjazm i osobisty popęd"
-      ],
-	  
-	"education.title": "Edukacja",
-	"education.data": [
-	{
-        "id": 1,
-        "institution": "Politechnika Rzeszowska",
-        "course": "Informatyka",
-        "startYear": "2018",
-        "endYear": "2022"
-    }
-     ],
-	 
-	"projects.title": "Projekty",
-		"projects.data": [
-	{
-        "id": 1,
-        "projectName": "Portfolio",
-        "projectDesc": "My personal portfolio website contains all the information from my CV and some more data plus all of my projects.",
-        "tags": ["HTML" ,"CSS", "Javascript","React", "Material UI"],
-        "code": "https://github.com/bonchevskyi/portfolio",
-        "demo": "https://bonchevskyi.netlify.app/",
-        "image": "https://i.postimg.cc/XYnSJWKT/preview-bonchevskyi.png"
-    },
-	{
-        "id": 2,
-        "projectName": "Memory",
-        "projectDesc": "A game designed to train user memory by remembering and matching the same cards in a pool. Customizable card type and number. Theme changer and audio effects included.",
-        "tags": ["HTML" ,"CSS", "Javascript","React", "styled-components"],
-        "code": "https://github.com/bonchevskyi/memory",
-        "demo": "https://memory-rb.netlify.app/",
-        "image": "https://i.postimg.cc/nVGc1nVh/preview-memory.png"
-    },
-	{
-        "id": 3,
-        "projectName": "Weather",
-        "projectDesc": "Web application to track weather with help of OpenWeather API and custom React hooks.",
-        "tags": ["HTML" ,"CSS", "Javascript","React", "styled-components"],
-        "code": "https://github.com/bonchevskyi/weather",
-        "demo": "https://weather-rb.netlify.app/",
-        "image": "https://i.postimg.cc/mgHrCCt0/preview-weather.png"
-    },
-	{
-        "id": 4,
-        "projectName": "Planets",
-        "projectDesc": "A beautiful website that showcases a bunch of facts about the planets of our solar system. Animated with framer-motion, styled with styled-components.",
-        "tags": ["HTML" ,"CSS", "Javascript","React", "styled-components"],
-        "code": "https://github.com/bonchevskyi/planets",
-        "demo": "https://planets-rb.netlify.app/",
-        "image": "https://i.postimg.cc/Jz1TBc6h/preview-planets.png"
-    }
-     ],
-	"projects.viewAll": "Więcej",
-	
-	"achievement.bio": "",
-    "achievement.desc2": "",
-    "achievement.des2ription2": "",
-		
-	"services.title": "Usługi",
-	"services.body": "Oto niektóre z oferowanych przeze mnie usług. Skontaktuj się ze mną, jeśli mogę Ci pomóc!",
-	"services.data": [
-		"UA|RU|PL|EN Tłumaczenie",
-	    "Korepetycje Języka Obcego",
-	    "Projektowanie Stron",
-		"Transkrypcja Audio",
-	    "Wyjaśnienie Podstaw Programowania"	    
-     ],
-	 
-	"testimonials.title": "Referencje",
-	"testimonials.data": [
-	{
-        "id": 1,
-        "name": "Elon Musk",
-        "title": "Engineer",
-        "text": "I'd rather be optimistic and wrong than pessimistic and right.",
-        "image": "https://i.postimg.cc/vZ6v1Gdg/elonnn.png"
-    },
-	{
-        "id": 2,
-        "name": "",
-        "title": "",
-        "text": "",
-        "image": ""
-    },
-	{
-        "id": 3,
-        "name": "",
-        "title": "",
-        "text": "",
-        "image": ""
-    }
-     ],
-	
-    "blog.title": "Blog",
-         "blog.data": [
-	{
-        "id": 1,
-        "title": "Title",
-        "description": "Description",
-        "date": "Dec 01, 2022",
-        "image": "https://i.postimg.cc/2jd646kj/placeholder.png",
-        "url": "https://github.com/bonchevskyi"
-    },
-		{
-        "id": 2,
-        "title": "Title",
-        "description": "Description",
-        "date": "Dec 01, 2022",
-        "image": "https://i.postimg.cc/2jd646kj/placeholder.png",
-        "url": "https://github.com/bonchevskyi"
-    },
-		{
-        "id": 3,
-        "title": "Title",
-        "description": "Description",
-        "date": "Dec 01, 2022",
-        "image": "https://i.postimg.cc/2jd646kj/placeholder.png",
-        "url": "https://github.com/bonchevskyi"
-    },
-		{
-        "id": 4,
-        "title": "Title",
-        "description": "Description",
-        "date": "Dec 01, 2022",
-        "image": "https://i.postimg.cc/2jd646kj/placeholder.png",
-        "url": "https://github.com/bonchevskyi"
-    }
-     ],
-	 
-	  "contacts.title": "Kontakt",
-	  "contacts.name": "Imię",
-	  "contacts.namePlaceholder": "Jan Nowak",
-	  "contacts.emailLabel": "Email",
-	  "contacts.messageLabel": "Wiadomość",
-	  "contacts.messagePlaceholder": "Treść tutaj...",
-	  "contacts.address": "Rzeszów, Polska",
-	  "contacts.send": "Wysłać",
-	  "contacts.sent": "Wysłano",		
-	
-	
-	
-      "end": "end"
-  }
-  
+    "skills.title": "Umiejętności",
+    "education.title": "Edukacja",
+    "education.data": [
+        {
+            "id": 1,
+            "institution": "Politechnika Rzeszowska",
+            "course": "Informatyka",
+            "startYear": "2018",
+            "endYear": "2022"
+        }
+    ],
+    "projects.title": "Projekty",
+    "projects.data": [
+        {
+            "id": 1,
+            "name": "Portfolio",
+            "desc": "Moja osobista strona portfolio zawiera wszystkie informacje z mojego CV i nie tylko.",
+            "tags": [
+                "HTML",
+                "CSS-in-JS",
+                "TypeScript",
+                "React",
+                "Mantine"
+            ],
+            "code": "https://github.com/bonchevskyi/portfolio",
+            "demo": "https://bonchevskyi.netlify.app/"
+        },
+        {
+            "id": 2,
+            "name": "Memory",
+            "desc": "Gra zaprojektowana do trenowania pamięci poprzez zapamiętywanie i dopasowywanie tych samych kart w puli. Możliwość dostosowania typu i liczby kart. Zmieniacz motywów i efekty dźwiękowe w zestawie.",
+            "tags": [
+                "HTML",
+                "CSS-in-JS",
+                "TypeScript",
+                "React"
+            ],
+            "code": "https://github.com/bonchevskyi/memory",
+            "demo": "https://memory-rb.netlify.app/"
+        },
+        {
+            "id": 3,
+            "name": "Weather",
+            "desc": "Aplikacja internetowa do śledzenia pogody za pomocą OpenWeather API i customowych haków React.",
+            "tags": [
+                "HTML",
+                "CSS-in-JS",
+                "TypeScript",
+                "React"
+            ],
+            "code": "https://github.com/bonchevskyi/weather",
+            "demo": "https://weather-rb.netlify.app/"
+        },
+        {
+            "id": 4,
+            "name": "Planets",
+            "desc": "Piękna strona internetowa prezentuje wiele faktów na temat planet naszego układu słonecznego. Animowana za pomocą 'framer motion', stylizowana za pomocą 'styled komponents'.",
+            "tags": [
+                "HTML",
+                "CSS-in-JS",
+                "TypeScript",
+                "React"
+            ],
+            "code": "https://github.com/bonchevskyi/planets",
+            "demo": "https://planets-rb.netlify.app/"
+        }
+    ],
+    "projects.viewAll": "Więcej",
+    "contacts.title": "Kontakt",
+    "contacts.name": "Imię",
+    "contacts.namePlaceholder": "Jan Nowak",
+    "contacts.emailLabel": "Email",
+    "contacts.messageLabel": "Wiadomość",
+    "contacts.messagePlaceholder": "Treść tutaj...",
+    "contacts.address": "Wrocław, Polska",
+    "contacts.send": "Wysłać",
+    "contacts.sent": "Wysłano"
+}

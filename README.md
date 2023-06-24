@@ -5,14 +5,12 @@
 <a href = "https://bonchevskyi.netlify.app/" target= "_blank">LIVE DEMO</a>
 
 # <h2>🔥 Libraries and Technologies </h2>
-👉 React Context to provide theme data <br/>
+👉 Mantine provides theming <br/>
 👉 i18next handles translation <br/>
 👉 SheetDB for contact form <br />
-👉 React Reveal delivers animations <br />
-👉 Styled with Material UI + Styled Components <br/>
+👉 Styled with Emotion <br/>
 👉 Icons powered by React Icons <br/>
 
 # <h2>💡 Features </h2>
-✔️ Mutliple Language Support <br />
+✔️ Multiple Languages Support <br />
 ✔️ Theme Switcher <br />
-✔️ Blogs & Projects search bar <br />

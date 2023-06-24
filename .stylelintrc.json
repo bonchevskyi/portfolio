@@ -1,0 +1,11 @@
+{
+    "extends": [
+      "stylelint-config-recommended"
+    ],
+    "overrides": [
+        {
+          "files": ["*.styled.ts"]
+        }
+    ],
+    "customSyntax": "postcss-styled-syntax"
+}

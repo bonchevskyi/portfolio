@@ -1,211 +1,120 @@
 {
-	"select_language": "Виберіть мову",		
-	
-	"helmet.main": "Портфоліо",
-	"helmet.blog": "Блог",
-	"helmet.projects": "Проекти",
-	
-	"navbar.data": [
-		{
-			"name": "Головна",
-			"link": "home"
-		},
-		{
-			"name": "Про мене",
-			"link": "about"
-		},
-		{
-			"name": "Навички",
-			"link": "skills"
-		},
-		{
-			"name": "Освіта",
-			"link": "education"
-		},
-		{
-			"name": "Проекти",
-			"link": "projects"
-		},
-		{
-			"name": "Послуги",
-			"link": "services"
-		},
-		{
-			"name": "Блог",
-			"link": "blog"
-		},
-		{
-			"name": "Контакти",
-			"link": "contact"
-		}
-	 ],
-	
-	"header.name": "Роман Бончевський",
-    "header.title": "Веб-розробник",    
+    "select_language": "Виберіть мову",
+    "helmet.main": "Портфоліо",
+    "helmet.projects": "Проекти",
+    "navbar.data": [
+        {
+            "name": "Головна",
+            "link": "home"
+        },
+        {
+            "name": "Про мене",
+            "link": "about"
+        },
+        {
+            "name": "Навички",
+            "link": "skills"
+        },
+        {
+            "name": "Досвід",
+            "link": "experience"
+        },
+        {
+            "name": "Освіта",
+            "link": "education"
+        },
+        {
+            "name": "Проекти",
+            "link": "projects"
+        },
+        {
+            "name": "Контакти",
+            "link": "contact"
+        }
+    ],
+    "header.name": "Роман Бончевський",
+    "header.title": "Веб-розробник",
     "header.desciption": "Життя може бути звивистим шляхом, але не турбуйтеся про це, радше насолоджуйтесь ним. Наполегливо працюйте та будьте добрими і дивовижні речі стануться.",
     "header.download": "Завантажити CV",
     "header.contact": "Контакти",
-	
     "about.title": "Ким я є?",
     "about.description1": "Привіт :) Мене звати Роман. Я веб-розробник початківець з України.",
     "about.description2": "Я закінчив Жешувський технологічний університет зі ступенем інженера з розробки інформаційних систем. Зараз я вивчаю веб-розробку інтерфейсів (frontend) та шукаю свого першого комерційного досвіду.",
-    
-	"skills.title": "Навички",
-	"skills.titleT": "Технічні",
-	"skills.titleP": "Персональні",
-	"skills.personal": [
-        "Аналітичний підхід до вирішення проблем",
-		"Письмове спілкування",
-        "Увага до деталей",		
-		"Бажання розвиватися",
-        "Швидке навчання",
-		
-        "Командна робота",
-		"Самомотивація",		
-		"Стресостійкість",
-		"Емоційний інтелект",        
-		"Ентузіазм і особистий драйв"
-      ],
-	  
-	"education.title": "Освіта",
-	"education.data": [
-	{
-        "id": 1,
-        "institution": "Жешувський технологічний університет",
-        "course": "Інформатика",
-        "startYear": "2018",
-        "endYear": "2022"
-    }
-     ],
-	 
-	"projects.title": "Проекти",
-		"projects.data": [
-	{
-        "id": 1,
-        "projectName": "Portfolio",
-        "projectDesc": "My personal portfolio website contains all the information from my CV and some more data plus all of my projects.",
-        "tags": ["HTML" ,"CSS", "Javascript","React", "Material UI"],
-        "code": "https://github.com/bonchevskyi/portfolio",
-        "demo": "https://bonchevskyi.netlify.app/",
-        "image": "https://i.postimg.cc/XYnSJWKT/preview-bonchevskyi.png"
-    },
-	{
-        "id": 2,
-        "projectName": "Memory",
-        "projectDesc": "A game designed to train user memory by remembering and matching the same cards in a pool. Customizable card type and number. Theme changer and audio effects included.",
-        "tags": ["HTML" ,"CSS", "Javascript","React", "styled-components"],
-        "code": "https://github.com/bonchevskyi/memory",
-        "demo": "https://memory-rb.netlify.app/",
-        "image": "https://i.postimg.cc/nVGc1nVh/preview-memory.png"
-    },
-	{
-        "id": 3,
-        "projectName": "Weather",
-        "projectDesc": "Web application to track weather with help of OpenWeather API and custom React hooks.",
-        "tags": ["HTML" ,"CSS", "Javascript","React", "styled-components"],
-        "code": "https://github.com/bonchevskyi/weather",
-        "demo": "https://weather-rb.netlify.app/",
-        "image": "https://i.postimg.cc/mgHrCCt0/preview-weather.png"
-    },
-	{
-        "id": 4,
-        "projectName": "Planets",
-        "projectDesc": "A beautiful website that showcases a bunch of facts about the planets of our solar system. Animated with framer-motion, styled with styled-components.",
-        "tags": ["HTML" ,"CSS", "Javascript","React", "styled-components"],
-        "code": "https://github.com/bonchevskyi/planets",
-        "demo": "https://planets-rb.netlify.app/",
-        "image": "https://i.postimg.cc/Jz1TBc6h/preview-planets.png"
-    }
-     ],
-	"projects.viewAll": "Більше",
-	
-	"achievement.bio": "",
-    "achievement.desc2": "",
-    "achievement.des2ription2": "",
-		
-	"services.title": "Послуги",
-	"services.body": "Ось деякі з послуг, які я пропоную. Звертайтеся до мене, якщо я можу вам чимось допомогти!",
-	"services.data": [
-		"UA|RU|PL|EN Переклад",
-	    "Репетиторство з Іноземної Мови",
-	    "Веб-Дизайн",
-		"Транскрипція Аудіо",
-	    "Пояснення Основ Програмування"	    
-     ],
-	 
-	"testimonials.title": "Testimonials",
-	"testimonials.data": [
-	{
-        "id": 1,
-        "name": "Elon Musk",
-        "title": "Engineer",
-        "text": "I'd rather be optimistic and wrong than pessimistic and right.",
-        "image": "https://i.postimg.cc/vZ6v1Gdg/elonnn.png"
-    },
-	{
-        "id": 2,
-        "name": "",
-        "title": "",
-        "text": "",
-        "image": ""
-    },
-	{
-        "id": 3,
-        "name": "",
-        "title": "",
-        "text": "",
-        "image": ""
-    }
-     ],
-	
-    "blog.title": "Блог",
-     "blog.data": [
-	{
-        "id": 1,
-        "title": "Title",
-        "description": "Description",
-        "date": "Dec 01, 2022",
-        "image": "https://i.postimg.cc/2jd646kj/placeholder.png",
-        "url": "https://github.com/bonchevskyi"
-    },
-		{
-        "id": 2,
-        "title": "Title",
-        "description": "Description",
-        "date": "Dec 01, 2022",
-        "image": "https://i.postimg.cc/2jd646kj/placeholder.png",
-        "url": "https://github.com/bonchevskyi"
-    },
-		{
-        "id": 3,
-        "title": "Title",
-        "description": "Description",
-        "date": "Dec 01, 2022",
-        "image": "https://i.postimg.cc/2jd646kj/placeholder.png",
-        "url": "https://github.com/bonchevskyi"
-    },
-		{
-        "id": 4,
-        "title": "Title",
-        "description": "Description",
-        "date": "Dec 01, 2022",
-        "image": "https://i.postimg.cc/2jd646kj/placeholder.png",
-        "url": "https://github.com/bonchevskyi"
-    }
-     ],
-	 
-	  "contacts.title": "Контакти",
-	  "contacts.name": "Ім’я",
-	  "contacts.namePlaceholder": "Іван Іваненко",
-	  "contacts.emailLabel": "Пошта",
-	  "contacts.messageLabel": "Повідомлення",	  
-	  "contacts.messagePlaceholder": "Вміст тут...",
-	  "contacts.address": "Жешув, Польща",
-	  "contacts.send": "Надіслати",
-	  "contacts.sent": "Надіслано",		
-	
-	
-	
-    "end": "end"
-  }
-  
+    "skills.title": "Навички",
+    "education.title": "Освіта",
+    "education.data": [
+        {
+            "id": 1,
+            "institution": "Жешувський технологічний університет",
+            "course": "Інформатика",
+            "startYear": "2018",
+            "endYear": "2022"
+        }
+    ],
+    "projects.title": "Проекти",
+    "projects.data": [
+        {
+            "id": 1,
+            "name": "Portfolio",
+            "desc": "Cайт мого особистого портфоліо у якому міститься вся інформація з мого резюме і не тільки.",
+            "tags": [
+                "HTML",
+                "CSS-in-JS",
+                "TypeScript",
+                "React",
+                "Mantine"
+            ],
+            "code": "https://github.com/bonchevskyi/portfolio",
+            "demo": "https://bonchevskyi.netlify.app/"
+        },
+        {
+            "id": 2,
+            "name": "Memory",
+            "desc": "Гра призначена для тренування пам'яті шляхом запам'ятовування та зіставлення однакових карток у пулі. Налаштовується тип і кількість карток. Зміна теми та звукові ефекти включені.",
+            "tags": [
+                "HTML",
+                "CSS-in-JS",
+                "TypeScript",
+                "React"
+            ],
+            "code": "https://github.com/bonchevskyi/memory",
+            "demo": "https://memory-rb.netlify.app/"
+        },
+        {
+            "id": 3,
+            "name": "Weather",
+            "desc": "Веб-додаток для відстеження погоди за допомогою OpenWeather API та кастомних хуків React.",
+            "tags": [
+                "HTML",
+                "CSS-in-JS",
+                "TypeScript",
+                "React"
+            ],
+            "code": "https://github.com/bonchevskyi/weather",
+            "demo": "https://weather-rb.netlify.app/"
+        },
+        {
+            "id": 4,
+            "name": "Planets",
+            "desc": "Гарний веб-сайт, що демонструє багато фактів про планети нашої сонячної системи. Анімований за допомогою 'framer motion', стилізований зі 'styled components'.",
+            "tags": [
+                "HTML",
+                "CSS-in-JS",
+                "TypeScript",
+                "React"
+            ],
+            "code": "https://github.com/bonchevskyi/planets",
+            "demo": "https://planets-rb.netlify.app/"
+        }
+    ],
+    "projects.viewAll": "Більше",
+    "contacts.title": "Контакти",
+    "contacts.name": "Ім’я",
+    "contacts.namePlaceholder": "Іван Іваненко",
+    "contacts.emailLabel": "Пошта",
+    "contacts.messageLabel": "Повідомлення",
+    "contacts.messagePlaceholder": "Вміст тут...",
+    "contacts.address": "Вроцлав, Польща",
+    "contacts.send": "Надіслати",
+    "contacts.sent": "Надіслано"
+}
